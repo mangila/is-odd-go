@@ -28,3 +28,6 @@ func main() {
 }
 
 ```
+## Contributors
+
+* https://github.com/mangila/is-odd-go/graphs/contributors
