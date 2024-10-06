@@ -20,6 +20,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/github.com/mangila/is-odd-go"
 )
 
 func main() {
