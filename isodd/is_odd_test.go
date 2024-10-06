@@ -1,4 +1,4 @@
-package is_odd_go
+package isodd
 
 import (
 	"fmt"

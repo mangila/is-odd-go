@@ -1,6 +1,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/mangila/is-odd-go/issues)
 [![GoDoc](https://godoc.org/github.com/Pallinder/go-randomdata?status.svg)](https://godoc.org/github.com/mangila/is-odd-go)
 [![Go Report Card](https://goreportcard.com/badge/github.com/Pallinder/go-randomdata)](https://goreportcard.com/report/github.com/mangila/is-odd-go)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/mangila/is-odd-go)
 # is-odd-go
 When you are in trouble and can't decide if the number is odd or even. This go utility will solve it for you. 
 
@@ -18,13 +19,15 @@ When you are in trouble and can't decide if the number is odd or even. This go u
 package main
 
 import (
-    "fmt"
-    "github.com/mangila/is-odd-go"
+	"fmt"
 )
 
 func main() {
-	fmt.Println(isodd.IsOdd(5)) // Output: true
-	fmt.Println(isodd.IsOdd(4)) // Output: false
+	fmt.Println(isodd.IsOdd(5)) // true
+	fmt.Println(isodd.IsOdd(4)) // false
+
+	fmt.Println(iseven.IsEven(5)) // false
+	fmt.Println(iseven.IsEven(4)) // true
 }
 
 ```

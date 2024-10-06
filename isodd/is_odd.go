@@ -1,4 +1,4 @@
-package is_odd_go
+package isodd
 
 func IsOdd(n int) bool {
 	return n&1 == 1
